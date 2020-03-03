@@ -5,6 +5,8 @@
         <group name="Public Release WebRegex 2014"/>
         <group name="Release WebRegex Month 12"/>
         <group name="Public release month 12"/>
-        <group/>
+        <group>
+            <file>file:/home/scheiblr/Spielewiese/RegexGenerator/MaleRegexTree/nbproject/project.properties</file>
+        </group>
     </open-files>
 </project-private>
