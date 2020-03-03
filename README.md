@@ -67,7 +67,7 @@ mkdir output data
 wget https://raw.githubusercontent.com/uklfr/RegexGenerator/master/ConsoleRegexTurtle/testdataset/reduced.json -O data/example.json
 
 # run
-docker run -v "$(pwd)/output:/output" -v "$(pwd)/data:/input" uklfr/regex_generator:latest -t 4 -p 500 -g 1000 -e 20.0 -c "interesting evolution" -d /input/example.json
+docker run -it -v "$(pwd)/output:/output" -v "$(pwd)/data:/input" uklfr/regex_generator:latest -t 4 -p 500 -g 1000 -e 20.0 -c "interesting evolution" -d /input/example.json
 ```
 
 You are free to run the command whereever you'd like to. Just be aware, that the input folder is mapped to `/input` inside the container and relative to this structure the input file `-d /input/example.json` has to be chosen.
